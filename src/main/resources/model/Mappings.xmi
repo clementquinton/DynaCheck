@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping:Mappings xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:featuremodel="http://fr.univ.lille.featuremodel" xmlns:mapping="http://fr.univ.lille.mapping" xsi:schemaLocation="http://fr.univ.lille.featuremodel ../metamodel/FeatureModel.ecore http://fr.univ.lille.mapping ../metamodel/Mapping.ecore">
+  <mappings to="somePieceOfJavaCode">
+    <from xsi:type="featuremodel:Feature" href="FeatureModel.xmi#//@rootFeature/@subFeatures.1/@subFeatures.0"/>
+  </mappings>
+</mapping:Mappings>

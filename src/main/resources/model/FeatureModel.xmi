@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<featuremodel:FeatureModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:featuremodel="http://fr.univ.lille.featuremodel" xmlns:type="http://fr.univ.lille.type" xsi:schemaLocation="http://fr.univ.lille.featuremodel ../metamodel/FeatureModel.ecore http://fr.univ.lille.type ../metamodel/Type.ecore">
+  <constraints xsi:type="featuremodel:AdaptationRule">
+    <condition attribute="//@rootFeature/@subFeatures.0/@subFeatures.0/@attributes.0" type="geq" feature="//@rootFeature/@subFeatures.0/@subFeatures.0">
+      <value value="40"/>
+    </condition>
+    <action feature="//@rootFeature/@subFeatures.1/@subFeatures.0" type="select"/>
+  </constraints>
+  <rootFeature name="CPS">
+    <subFeatures name="Sensor">
+      <subFeatures name="LightSensor">
+        <attributes name="luminosity" runtime="true">
+          <value xsi:type="type:IntValue"/>
+        </attributes>
+      </subFeatures>
+      <subFeatures name="TemperatureSensor"/>
+    </subFeatures>
+    <subFeatures name="Actuator">
+      <subFeatures name="LightActuator"/>
+    </subFeatures>
+  </rootFeature>
+</featuremodel:FeatureModel>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sselement:SSElements xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sselement="http://fr.univ.lille.sselement" xsi:schemaLocation="http://fr.univ.lille.sselement ../metamodel/SSElement.ecore">
+  <elements sourceCode="pathToTheCode" name="somePieceOfJavaCode"/>
+  <elements sourceCode="urlToTheService" name="webService"/>
+</sselement:SSElements>

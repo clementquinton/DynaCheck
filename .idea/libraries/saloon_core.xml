@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="saloon-core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/saloon-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

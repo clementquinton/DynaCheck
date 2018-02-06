@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Mapping -->
+      <package
+            uri="http://fr.univ.lille.mapping"
+            class="mapping.MappingPackage"
+            genModel="src/main/resources/metamodel/Mapping.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated FeatureModel -->
+      <package
+            uri="http://fr.univ.lille.featuremodel"
+            class="featureModel.FeatureModelPackage"
+            genModel="src/main/resources/metamodel/FeatureModel.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://fr.univ.lille.type"
+            class="type.TypePackage"
+            genModel="src/main/resources/metamodel/Type.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated AdaptationRule -->
+      <package
+            uri="http://fr.univ.lille.adaptationrule"
+            class="adaptationRule.AdaptationRulePackage"
+            genModel="src/main/resources/metamodel/AdaptationRule.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated SSElement -->
+      <package
+            uri="http://fr.univ.lille.sselement"
+            class="ssElement.SsElementPackage"
+            genModel="src/main/resources/metamodel/SSElement.genmodel"/>
+   </extension>
+
+</plugin>
