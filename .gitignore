@@ -3,3 +3,4 @@
 .project
 .settings/
 .README.txt
+*.DS_STORE
