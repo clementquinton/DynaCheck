@@ -10,11 +10,13 @@ DynaCheck takes as parameters 3 files:
 * the mapping file
 * the solution space file
 
-Examples for such files are provided in the resources/models/ repository
+Examples for such files are provided in the resources/models/ repository.
+You can either use Eclipse, maven or the executable jar file to run the project.
 
-## Using it within the Eclipse IDE
+## Using the Eclipse IDE
 
 Eclipse provides support to edit and visualize models and meta-models using the proper plugins.
+
 
 ### Prerequisites
 
@@ -23,6 +25,7 @@ The Eclipse Modeling Framework (EMF) is required. I also suggest to install Xpan
 The update sites for theses plugins are:
 * [EMF] http://download.eclipse.org/modeling/emf/emf/builds/release
 * [Xpand] http://download.eclipse.org/modeling/m2t/updates/releases/
+
 
 
 ## Running with maven
@@ -34,5 +37,15 @@ mvn exec:java -Dexec.args="src/main/resources/model/FeatureModel.xmi
                            src/main/resources/model/SSElements.xmi"
 ```
 
-<!--## Executing the jar
+
+## Executing the jar
 The project can also be downloaded as an executable jar file here:
+http://researchers.lille.inria.fr/cquinton/dspl/
+
+Once downloaded, open a terminal in the project's repository, and execute the following commands:
+
+```
+java -jar DynaCheck.jar src/main/resources/model/FeatureModel.xmi
+                        src/main/resources/model/Mappings.xmi
+                        src/main/resources/model/SSElements.xmi
+```
