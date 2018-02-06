@@ -14,7 +14,7 @@ Examples for such files are provided in the resources/models/ repository
 
 ## Using it within the Eclipse IDE
 
-The best way to edit and visualize the various models and meta-models.
+Eclipse provides support to edit and visualize models and meta-models using the proper plugins.
 
 ### Prerequisites
 
