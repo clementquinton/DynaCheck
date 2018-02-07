@@ -3,7 +3,6 @@
 This project checks the validity of a dynamic software product line built on a (provided) model-based architecture.
 
 ## Overview
-The checking process is mainly performed through type conformance (i.e. when the model conforms to the meta-model) together with an ad-hoc piece of code for solution space elements validity.
 
 DynaCheck takes as parameters 3 files:
 * the feature model file
